@@ -10,22 +10,27 @@ Uma aplicação GUI em Python para processamento de imagens usando OpenCV, que p
 
 ## 📋 Sobre o Projeto
 
-O **pyNegative** é uma aplicação desktop que fornece uma interface gráfica intuitiva para processamento e análise de imagens. A ferramenta aplica diversas transformações morfológicas e técnicas de thresholding, exibindo os resultados lado a lado para comparação.
+O **pyNegative** é uma aplicação para processamento e análise de imagens disponível em duas versões:
+
+1. **Versão Desktop (Python)**: Interface gráfica usando Tkinter para processamento de imagens
+2. **Versão Web (HTML/JS)**: Aplicação interativa que roda diretamente no navegador, sem necessidade de instalação
+
+Ambas as versões aplicam diversas transformações morfológicas e técnicas de thresholding, exibindo os resultados lado a lado para comparação.
 
 ### ✨ Funcionalidades
 
 - 📁 **Seleção de Imagens**: Interface para carregar imagens nos formatos JPG e PNG
-- 🔄 **Transformações em Tempo Real**:
+- 🔄 **Transformações Disponíveis**:
   - Conversão para escala de cinza (GRAY)
-  - Thresholding binário (BINARY)
+  - Thresholding binário (BINARY) - limiar em 127
   - Detecção de contornos (CONTOURS)
   - Thresholding adaptativo Gaussiano (ADAPTIVE_THRESH_GAUSSIAN_C)
   - Thresholding binário invertido (BINARY_INV)
   - Thresholding truncado (TRUNC)
   - Thresholding TOZERO
   - Thresholding TOZERO invertido (TOZERO_INV)
-- 🖼️ **Visualização Multipla**: Exibe até 9 variações da imagem simultaneamente
-- 🎯 **Interface Amigável**: Layout organizado com controles intuitivos
+- 🖼️ **Visualização Múltipla**: Exibe até 9 variações da imagem simultaneamente
+- 🌐 **Versão Web**: Teste diretamente no navegador sem instalar nada! Acesse em: [https://SEU-USUARIO.github.io/pyNegative](https://SEU-USUARIO.github.io/pyNegative)
 
 ## 🚀 Instalação
 
@@ -91,21 +96,26 @@ pip install -r requirements.txt
 
 ```
 pyNegative/
-├── pyNegative.py          # Script principal da aplicação
+├── pyNegative.py          # Script principal (Python/Tkinter)
 ├── README.md              # Documentação do projeto
-├── requirements.txt       # Dependências do projeto
-├── docs/                  # Documentação para GitHub Pages
-│   └── index.html         # Página estática do projeto
+├── docs/                  # Aplicação Web para GitHub Pages
+│   └── index.html         # Versão web interativa (HTML5/JS)
 └── .gitignore             # Arquivos ignorados pelo Git
 ```
 
 ## 🔧 Tecnologias Utilizadas
 
+### Versão Desktop (Python)
 - **Python 2.7+** - Linguagem de programação principal
 - **OpenCV** - Processamento de imagens e visão computacional
 - **Tkinter** - Interface gráfica do usuário (GUI)
 - **Pillow (PIL)** - Manipulação e exibição de imagens
 - **NumPy** - Operações numéricas com arrays
+
+### Versão Web (GitHub Pages)
+- **HTML5 Canvas** - Renderização de imagens no navegador
+- **JavaScript** - Processamento de imagens no cliente
+- **CSS3** - Estilização e layout responsivo
 
 ## 📸 Screenshots
 
@@ -139,8 +149,34 @@ Email: [diego.santana@ifms.edu.br](mailto:diego.santana@ifms.edu.br)
 
 ---
 
+## 🌐 GitHub Pages
+
+Este projeto possui uma versão web interativa disponível no **GitHub Pages**! 
+
+### Como Ativar o GitHub Pages:
+
+1. Vá até as **Settings** do seu repositório no GitHub
+2. Clique em **Pages** na barra lateral esquerda
+3. Em **Source**, selecione a branch `main` (ou `master`)
+4. Em **Folder**, selecione `/docs`
+5. Clique em **Save**
+
+Após alguns minutos, sua aplicação estará disponível em:
+```
+https://SEU-USUARIO.github.io/pyNegative/
+```
+
+### Vantagens da Versão Web:
+- ✅ Não requer instalação de Python ou dependências
+- ✅ Funciona em qualquer navegador moderno
+- ✅ Processamento local no navegador (sem envio de dados)
+- ✅ Interface responsiva para desktop e mobile
+- ✅ Mesmas transformações da versão desktop
+
+---
+
 <div align="center">
-  <p>Feito com ❤️ usando Python e OpenCV</p>
+  <p>Feito com ❤️ usando Python/OpenCV e HTML5/JavaScript</p>
   <p>⭐ Se este projeto foi útil, considere dar uma estrela!</p>
 </div>  
 
