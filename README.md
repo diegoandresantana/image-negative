@@ -140,7 +140,7 @@ Email: [diego.santana@ifms.edu.br](mailto:diego.santana@ifms.edu.br)
 ---
 
 <div align="center">
-  <p>Feito com ❤️ usando Python e OpenCV</p>
+  <p>Feito usando Python e OpenCV</p>
   <p>⭐ Se este projeto foi útil, considere dar uma estrela!</p>
 </div>  
 
