@@ -176,7 +176,9 @@ https://SEU-USUARIO.github.io/pyNegative/
 ---
 
 <div align="center">
-  <p>Feito com ❤️ usando Python/OpenCV e HTML5/JavaScript</p>
+
+  <p>Feito usando Python e OpenCV</p>
+
   <p>⭐ Se este projeto foi útil, considere dar uma estrela!</p>
 </div>  
 
